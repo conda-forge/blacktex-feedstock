@@ -21,6 +21,7 @@ requirements:
   host:
     - pip
     - python >=3.6
+    - flit-core >=3.2,<4
   run:
     - python >=3.6
     - importlib-metadata
@@ -41,7 +42,10 @@ about:
   description: |
     `blacktex` is a little tool, helping with the article editing 
     for LaTeX. It removes all comments from a given file and corrects 
-    some common anti-patterns.   
+    some common anti-patterns.
+
+    PyPI: [https://pypi.org/project/blacktex/](https://pypi.org/project/blacktex/)
+
   doc_url: https://github.com/nschloe/blacktex
   dev_url: https://github.com/nschloe/blacktex
 
